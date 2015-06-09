@@ -48,8 +48,8 @@ module.exports = function (grunt) {
 		'shimly',
 		'compileJS',
 		'compileCSS',
-		'clean:tempCSS',
 		'images',
+		'clean:temp',
 		'copy',
 		'assemble',
 		'browserSync:serve',
@@ -66,8 +66,8 @@ module.exports = function (grunt) {
 		'shimly',
 		'compileJS',
 		'compileCSS',
-		'clean:tempCSS',
 		'images',
+		'clean:temp',
 		'copy',
 		'assemble'
 	]);
@@ -83,8 +83,8 @@ module.exports = function (grunt) {
 		'compileJS',
 		'compileCSS',
 		'csso',
-		'clean:tempCSS',
 		'images',
+		'clean:temp',
 		'copy',
 		'assemble'
 	]);
@@ -98,8 +98,8 @@ module.exports = function (grunt) {
 		'shimly',
 		'compileJS',
 		'compileCSS',
-		'clean:tempCSS',
 		'images',
+		'clean:temp',
 		'copy',
 		'assemble',
 		'browserSync:styleguide',
@@ -123,7 +123,8 @@ module.exports = function (grunt) {
 	grunt.registerTask('icons', [
 		'clean:icons',
 		'imagemin:grunticon',
-		'grunticon'
+		'grunticon',
+		'clean:temp'
 	]);
 
 
