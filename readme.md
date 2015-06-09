@@ -1,5 +1,5 @@
 # frontendguidelin.es
-Development guidelines and resouce guide for Front-end developers
+Development guidelines and resource guide for Front-end developers
 
 ## Developers: 
 Ashley Nolan
