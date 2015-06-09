@@ -1,0 +1,72 @@
+##################################################
+# Template for new Entries – please copy this standard
+# We will then use https://api.github.com/repos/yourorg/yourrepo to find the most up-to-date stats
+#
+# - name: My Framework Name
+#  site_url: http://myframework.com/
+#  github_url: https://github.com/myuser/myframework
+#  contact_twitter: twitter_handle
+#  contact_email: email_address
+#  licence: string
+#  tagline: string
+#  short_desc: |
+#    Enter a short description of your framework here
+#    If you need multiple lines, go nuts
+#  ie_support: false | version_number | latest
+#  chrome_support: false | version_number | latest
+#  safari_support: false | version_number | latest
+#  firefox_support: false | version_number | latest
+#  opera_support: false | version_number | latest
+#  less_support: false | true
+#  sass_support: false | true
+#  mobile_support: false | true
+#  tablet_support: false | true
+#  desktop_support: false | true
+#  active: true
+
+##################################################
+
+- name: Kickoff
+  site_url: http://trykickoff.github.io/
+  github_url: https://github.com/TryKickoff/kickoff
+  contact_twitter: trykickoff
+  contact_email:
+  licence: MIT
+  tagline: A lightweight front-end framework for creating scalable, responsive sites
+  short_desc: |
+    Kickoff is an actively maintained front-end framework, created by Zander Martineau and Ashley Nolan.
+    The framework is not meant to be too prescriptive - we don't want to force developers into a certain coding style - and so can be used as a starting point for any type of project.
+  ie_support: 8
+  chrome_support: latest
+  safari_support: latest
+  firefox_support: latest
+  opera_support: latest
+  less_support: false
+  sass_support: true
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Bootstrap
+  site_url: http://getbootstrap.com/
+  github_url: https://github.com/TryKickoff/kickoff
+  contact_twitter: trykickoff
+  contact_email:
+  licence: MIT
+  tagline: A lightweight front-end framework for creating scalable, responsive sites
+  short_desc: |
+    Kickoff is an actively maintained front-end framework, created by Zander Martineau and Ashley Nolan.
+    The framework is not meant to be too prescriptive - we don't want to force developers into a certain coding style - and so can be used as a starting point for any type of project.
+  ie_support: 8
+  chrome_support: latest
+  safari_support: latest
+  firefox_support: latest
+  opera_support: latest
+  less_support: false
+  sass_support: true
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true

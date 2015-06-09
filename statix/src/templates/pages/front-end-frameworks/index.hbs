@@ -1,0 +1,38 @@
+---
+title: Front-end Frameworks
+
+frameworks: '<%= fe_frameworks %>'
+---
+
+{{#markdown}}
+
+{{#each frameworks}}
+
+
+## [{{name}}]({{site_url}})
+
+[Github]({{github_url}})
+[Twitter](http://twitter.com/{{contact_twitter}})
+[Email]({{contact_email}})
+{{licence}}
+
+{{tagline}}
+
+{{short_desc}}
+
+- IE: {{ie_support}}
+- Chrome: {{chrome_support}}
+- Safari: {{safari_support}}
+- Firefox: {{firefox_support}}
+- Opera: {{opera_support}}
+- LESS: {{less_support}}
+- Sass: {{sass_support}}
+- Mobile: {{mobile_support}}
+- Tablet: {{tablet_support}}
+- Desktop: {{desktop_support}}
+
+{{/each}}
+
+{{/markdown}}
+
+
