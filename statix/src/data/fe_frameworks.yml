@@ -12,11 +12,11 @@
 #  short_desc: |
 #    Enter a short description of your framework here
 #    If you need multiple lines, go nuts
-#  ie_support: false | version_number | latest
-#  chrome_support: false | version_number | latest
-#  safari_support: false | version_number | latest
-#  firefox_support: false | version_number | latest
-#  opera_support: false | version_number | latest
+  #  ie_support: false | version_number | +
+  #  chrome_support: false | version_number | +
+  #  safari_support: false | version_number | +
+  #  firefox_support: false | version_number | +
+  #  opera_support: false | version_number | +
 #  less_support: false | true
 #  sass_support: false | true
 #  mobile_support: false | true
@@ -37,12 +37,36 @@
     Kickoff is an actively maintained front-end framework, created by Zander Martineau and Ashley Nolan.
     The framework is not meant to be too prescriptive - we don't want to force developers into a certain coding style - and so can be used as a starting point for any type of project.
   ie_support: 8
-  chrome_support: latest
-  safari_support: latest
-  firefox_support: latest
-  opera_support: latest
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
   less_support: false
   sass_support: true
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Semantic UI
+  site_url: http://semantic-ui.com
+  github_url: https://github.com/jlukic/Semantic-UI
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline: UI is the vocabulary of the web.
+  short_desc: |
+    Semantic empowers designers and developers by creating a language for sharing UI.
+    Lose the Hieroglyphics: Semantic is structured around natural language conventions to make development more intuitive.
+    Have a conversation with your components: Semantic gives you a variety of UI components with real-time debug output, letting your code tell you what its doing.
+  ie_support: 9
+  chrome_support: +
+  safari_support: 6
+  firefox_support: +
+  opera_support: 12.1
+  less_support: true
+  sass_support: false
   mobile_support: true
   tablet_support: true
   desktop_support: true
@@ -51,22 +75,1008 @@
 
 - name: Bootstrap
   site_url: http://getbootstrap.com/
-  github_url: https://github.com/TryKickoff/kickoff
-  contact_twitter: trykickoff
+  github_url: https://github.com/twbs/bootstrap/
+  contact_twitter:
   contact_email:
   licence: MIT
-  tagline: A lightweight front-end framework for creating scalable, responsive sites
+  tagline: Sleek, intuitive, and powerful front-end framework for faster and easier web development.
   short_desc: |
-    Kickoff is an actively maintained front-end framework, created by Zander Martineau and Ashley Nolan.
-    The framework is not meant to be too prescriptive - we don't want to force developers into a certain coding style - and so can be used as a starting point for any type of project.
   ie_support: 8
-  chrome_support: latest
-  safari_support: latest
-  firefox_support: latest
-  opera_support: latest
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: true
+  sass_support: true
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Foundation
+  site_url: http://foundation.zurb.com/
+  github_url: https://github.com/zurb/foundation/
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline: The most advanced responsive front-end framework in the world.
+  short_desc: |
+    Foundation 3 is built with Sass, a powerful CSS preprocessor, which allows us to much more quickly develop Foundation itself and gives you new tools to quickly customize and build on top of Foundation.
+  ie_support: 9
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
   less_support: false
   sass_support: true
   mobile_support: true
   tablet_support: true
   desktop_support: true
   active: true
+
+
+- name: UIkit
+  site_url: http://www.getuikit.com
+  github_url: https://github.com/uikit/uikit
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline: A lightweight and modular front-end framework for developing fast and powerful web interfaces.
+  short_desc: |
+    UIkit gives you a comprehensive collection of HTML, CSS, and JS components. It can be extended with themes and is easy to customize to create your own look.
+  ie_support: 9
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: true
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: 960 Grid System
+  site_url: http://960.gs/
+  github_url: http://github.com/nathansmith/960-grid-system/
+  contact_twitter:
+  contact_email:
+  licence: GPL & MIT
+  tagline: Simple grid system.
+  short_desc: |
+    The 960 Grid System is an effort to streamline web development workflow by providing commonly used dimensions, based on a width of 960 pixels. There are two variants: 12 and 16 columns, which can be used separately or in tandem.
+  ie_support: 7
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Skeleton
+  site_url: http://www.getskeleton.com/">Link</a>
+  github_url: https://github.com/dhgamache/Skeleton
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline: A Beautiful Boilerplate for Responsive, Mobile-Friendly Development.
+  short_desc: |
+    Skeleton is a small collection of CSS files that can help you rapidly develop sites that look beautiful at any size, be it a 17" laptop screen or an iPhone.
+  ie_support: 7
+  chrome_support: +
+  safari_support: +
+  firefox_support: 3
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: 99lime HTML KickStart
+  site_url: http://www.99lime.com/
+  github_url: http://github.com/joshuagatcke/HTML-KickStart/
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline: Ultra–Lean HTML Building Blocks for Rapid Website Production.
+  short_desc: |
+    HTML KickStart is an ultra–lean set of HTML5, CSS, and jQuery (javascript) files, layouts, and elements designed to give you a headstart and save you 10's of hours on your next web project.
+  ie_support: 8
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Kube
+  site_url: http://imperavi.com/kube/
+  github_url:
+  contact_twitter:
+  contact_email:
+  licence: Open Source
+  tagline: CSS-framework for professional developers.
+  ie_support: 8
+  chrome_support: +
+  short_desc: |
+    Minimal and enough. Adaptive and responsive. Revolution grid and beautiful typography. No imposed styles and freedom.
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: true
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Less Framework
+  site_url: http://lessframework.com/
+  github_url: https://github.com/jonikorpi/Less-Framework
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline: An adaptive CSS grid system.
+  short_desc: |
+    Less Framework is a CSS grid system for designing adaptive web­sites. It contains 4 layouts and 3 sets of typography presets, all based on a single grid.
+  ie_support: 7
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: true
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Flaminwork
+  site_url: http://flaminwork.com/
+  github_url: https://github.com/juanghurtado/flaminwork/
+  contact_twitter:
+  contact_email:
+  licence: Open Source
+  tagline: The tiny front-end framework for lazy developers.
+  short_desc: |
+  ie_support: 7
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: false
+  tablet_support: false
+  desktop_support: true
+  active: true
+
+
+- name: G5 Framework
+  site_url: http://framework.gregbabula.info/
+  github_url: https://github.com/gbabula/G5Framework
+  contact_twitter:
+  contact_email:
+  licence: Open Source
+  tagline: (X)HTML5, CSS3, PHP & jQuery Front End Framework.
+  short_desc: |
+    G5 Framework started as a personal project. In an attempt to speed up workflow, reuse the best coding practices & similar coding techniques, the framework serves as a starter file for new websites.
+  ie_support: 7
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: false
+  tablet_support: false
+  desktop_support: true
+  active: true
+
+
+- name: Easy Framework
+  site_url: http://easyframework.net/
+  github_url: https://github.com/LellysInformatica/EasyFramework
+  contact_twitter:
+  contact_email:
+  licence: CC
+  tagline: Easy Framework is a framework for PHP web development.
+  short_desc: |
+    Easy Framework is a web development framework for PHP. That does not answer your question? Ok, let's try again.Easy Framework is a PHP framework for developing web and mobile applications highly flexible and robust.
+  ie_support: 7
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: false
+  tablet_support: false
+  desktop_support: true
+  active: true
+
+
+- name: Blueprint
+  site_url: http://www.blueprintcss.org/
+  github_url: https://github.com/joshuaclayton/blueprint-css
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline:
+  short_desc: |
+    Blueprint is a CSS framework, which aims to cut down on your development time. It gives you a solid foundation to build your project on top of, with an easy-to-use grid, sensible typography, useful plugins, and even a stylesheet for printing.
+  ie_support: 7
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: false
+  tablet_support: false
+  desktop_support: true
+  active: true
+
+
+- name: YAML
+  site_url: http://www.yaml.de/
+  github_url: https://github.com/yamlcss/yaml
+  contact_twitter:
+  contact_email:
+  licence: CC-BY
+  tagline: “Yet Another Multicolumn Layout” (YAML)
+  short_desc: |
+    YAML is a modular CSS framework for truly flexible, accessible and responsive websites. The framework is focussed on device independent screen design and provides bullet-proof modules for flexible layouts.
+  ie_support: 6
+  chrome_support: +
+  safari_support: 4
+  firefox_support: 3.6
+  opera_support: 10
+  less_support: false
+  sass_support: true
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: BlueTrip
+  site_url: http://bluetrip.org/
+  github_url: http://github.com/mikecrittenden/bluetrip/
+  contact_twitter:
+  contact_email:
+  licence: Open Source
+  tagline:
+  short_desc: |
+    A full featured and beautiful CSS framework which originally combined the best of Blueprint, Tripoli (hence the name), Hartija, 960.gs, and Elements, but has now found a life of its own.
+  ie_support: 7
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: false
+  tablet_support: false
+  desktop_support: true
+  active: true
+
+
+- name: YUI CSS
+  site_url: http://yuilibrary.com/
+  github_url: https://github.com/yui/yui3
+  contact_twitter:
+  contact_email:
+  licence: BSD license
+  tagline: Simple CSS for the web
+  short_desc: |
+    The foundational YUI Grids CSS offers four preset page widths, six preset templates, and the ability to stack and nest subdivided regions of two, three, or four columns. The 4kb file provides over 1000 page layout combinations.
+  ie_support: 8
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Elements
+  site_url: http://elements.projectdesigns.org/
+  github_url:
+  contact_twitter:
+  contact_email:
+  licence: Open Source
+  tagline: Elements is a down to earth CSS framework.
+  short_desc: |
+    It was built to help designers write CSS faster and more efficient. Elements goes beyond being just a framework, it’s its own project workflow.It has everything you need to complete your project, which makes you and your clients happy.
+  ie_support: 7
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: false
+  tablet_support: false
+  desktop_support: true
+  active: true
+
+
+- name: 52framework
+  site_url: http://52framework.com/
+  github_url: https://github.com/agrublev/52framework
+  contact_twitter:
+  contact_email:
+  licence: CC
+  tagline:
+  short_desc: |
+     With HTML5 support coming so fast, with the tiniest of hacks we are able to use it today in virtually al browsers. Using HTML5 makes for much cleaner mark up. This framework fully uses all the great advantages of HTML5.
+  ie_support: 6
+  chrome_support: 4
+  safari_support: 4
+  firefox_support: 3
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: elastiCSS
+  site_url: http://elasticss.com/
+  github_url: http://github.com/azendal/elastic
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline:
+  short_desc: |
+     A simple css framework to layout web-based interfaces, based on the printed layout techniques of 4 columns but with capabilities to unlimited column combinations. and capacity to make elastic, fixed and liquid layout easily
+  ie_support: 7
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: true
+  tablet_support: false
+  desktop_support: true
+  active: true
+
+
+- name: Boilerplate
+  site_url: http://code.google.com/p/css-boilerplate/
+  github_url:
+  contact_twitter:
+  contact_email:
+  licence: New BSD
+  tagline: noun standardized pieces of text for use as clauses in contracts or as part of a computer program.
+  short_desc: |
+    As one of the original authors of Blueprint CSS I’ve decided to re-factor my ideas into a stripped down framework which provides the bare essentials to begin any project. This framework will be lite and strive not to suggest un-semantic naming conventions. You’re the designer and your craft is important.
+  ie_support: 7
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Emastic
+  site_url: http://code.google.com/p/emastic/
+  github_url:
+  contact_twitter:
+  contact_email:
+  licence: Open Source
+  tagline:
+  short_desc: |
+    Emastic is a CSS Framework, it’s continuing mission: to explore a strange new world, to seek out new life and new web spaces, to boldly go where no CSS Framework has gone before.
+  ie_support: 5
+  chrome_support: 2
+  safari_support: 3.1
+  firefox_support: 3
+  opera_support: 9
+  less_support: false
+  sass_support: false
+  mobile_support: false
+  tablet_support: false
+  desktop_support: true
+  active: true
+
+
+- name: Malo
+  site_url: http://code.google.com/p/malo/
+  github_url:
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline: Malo is ultra small css library for building web sites.
+  short_desc: |
+    Malo is ultra small css library for building web sites. It is meant to be structural base for small or medium web sites. Malo derives from it’s bigger brother Emastic CSS Framework.
+  ie_support: 5
+  chrome_support: 3
+  safari_support: 2
+  firefox_support: 1.5
+  opera_support: 8
+  less_support: false
+  sass_support: false
+  mobile_support: false
+  tablet_support: false
+  desktop_support: true
+  active: true
+
+
+- name: The Golden Grid
+  site_url: http://code.google.com/p/the-golden-grid/
+  github_url:
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline:
+  short_desc: |
+    The Golden Grid is a web grid system. It's a product of the search for the perfect modern grid system. It 's meant to be a CSS tool for grid based web sites.
+  ie_support: 6
+  chrome_support: 1
+  safari_support: 3
+  firefox_support: 3
+  opera_support: 9.6
+  less_support: false
+  sass_support: false
+  mobile_support: false
+  tablet_support: false
+  desktop_support: true
+  active: true
+
+
+- name: 1kb grid
+  site_url: http://heygrady.com/blog/2011/02/17/using-sass-with-the-1kb-grid-system/">Blog</a>
+  github_url: https://github.com/heygrady/compass-grid-plugin
+  contact_twitter:
+  contact_email:
+  licence: Open Source
+  tagline:
+  short_desc: |
+    Other CSS frameworks try to do everything—grid system, style reset, basic typography, form styles. But complex systems are, well, complex. Looking for a simple, lightweight approach that doesn't require a PhD? Meet The 1KB CSS Grid.
+  ie_support: 7
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: true
+  mobile_support: false
+  tablet_support: false
+  desktop_support: true
+  active: true
+
+- name: Fluid 960 Grid System
+  site_url: http://www.designinfluences.com/fluid960gs/
+  github_url: http://github.com/bauhouse/fluid960gs/
+  contact_twitter:
+  contact_email:
+  licence: GPL / MIT
+  tagline:
+  short_desc: |
+    The Fluid 960 Grid System templates have been built upon the work of Nathan Smith and his 960 Grid System using effects from the MooTools and jQuery JavaScript libraries.
+  ie_support: 7
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: false
+  tablet_support: false
+  desktop_support: true
+  active: true
+
+
+- name: Baseline
+  site_url: http://www.baselinecss.com/
+  github_url:
+  contact_twitter:
+  contact_email:
+  licence: CC
+  tagline: Baseline is a framework built around the idea of a “real” baseline grid.
+  short_desc: |
+    Built with typographic standards in mind, Baseline makes it easy to develop a website with a pleasing grid and good typography. Baseline starts with several files to reset the browser’s default behavior, build a basic typographic layout — including style for HTML forms and new HTML 5 elements — and build a simple grid system.
+  ie_support: 8
+  chrome_support: +
+  safari_support: 3
+  firefox_support: 3
+  opera_support: 9
+  less_support: false
+  sass_support: false
+  mobile_support: false
+  tablet_support: false
+  desktop_support: true
+  active: true
+
+
+- name: Lovely CSS Framework
+  site_url: http://code.google.com/p/lovely-css/
+  github_url:
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline: The Lovely CSS Framework is a simple and straight forward way to easily deploy an XHTML/CSS site.
+  short_desc: |
+    Based on a simple 960px wide grid system, featuring multiple column layouts, and various pluggable add-ons.
+  ie_support: 7
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: false
+  tablet_support: false
+  desktop_support: true
+  active: true
+
+
+- name: xCSS
+  site_url: http://xcss.antpaw.org/
+  github_url: http://github.com/antpaw/xCSS
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline: Object-Oriented CSS Framework
+  short_desc: |
+    xCSS bases on CSS and empowers a straightforward and object-oriented workflow when developing complex style cascades. Using xCSS means a dramatic cut down to your development time by: having a intuitive overview of the overall CSS structure, using variables, re-using existing style cascades and many other handy features.
+  ie_support: 7
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: true
+  mobile_support: false
+  tablet_support: false
+  desktop_support: true
+  active: true
+
+
+- name: FEM CSSFramework
+  site_url: http://www.frontendmatters.com/projects/fem-css-framework/
+  github_url: https://github.com/jesucarr/FEM-CSS-Framework
+  contact_twitter:
+  contact_email:
+  licence: MIT/GPL
+  tagline:
+  short_desc: |
+    FEM CSS Framework is a 960px width + 12 column grid system + CSS common styles, to easy and fast develop web layouts. It is based in the 960 Grid System, but with a twist in the philosophy to make it more flexible and faster to play with boxes.
+  ie_support: 6
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Helium
+  site_url:
+  github_url: https://github.com/cbrauckmuller/helium
+  contact_twitter:
+  contact_email:
+  licence: Apache v2.0
+  tagline: A responsive frontend framework that won't weigh you down
+  short_desc: |
+    Helium is a frontend responsive web framework for rapid prototyping and production-ready development using HTML5 and CSS3. In many ways it is similar to both Twitter Bootstrap and ZURB Foundation - in fact, it uses bits of their code. Unlike either of these two frameworks, however, Helium is designed to be much more lightweight and easier to tinker with.
+  ie_support: 7
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: true
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Knacss
+  site_url: http://knacss.com/en/
+  github_url: https://github.com/raphaelgoetter/KNACSS
+  contact_twitter:
+  contact_email:
+  licence: Open Source
+  tagline: Lightweight CSS framework
+  short_desc: |
+    KNACSS is a minimalist, responsive and extensible stylesheet to kick start your HTML / CSS projects. It relies on common best practices and my experience on the topic.
+  ie_support: 6
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: true
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Groundwork CSS
+  site_url: http://groundworkcss.github.io/
+  github_url: https://github.com/groundworkcss/groundwork
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline: The Last Grid You'll Ever Need
+  short_desc: |
+    GroundworkCSS's flexible grid system enables you to do rapid development and scales to fit any screen size, from handheld devices to large format televisions.
+  ie_support: 9
+  chrome_support: 14
+  safari_support: 4
+  firefox_support: 3.6
+  opera_support: 11
+  less_support: false
+  sass_support: true
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Gumby
+  site_url: http://gumbyframework.com/
+  github_url: https://github.com/GumbyFramework/Gumby
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline: Now more flexible than ever.
+  short_desc: |
+    Gumby Framework was built to be the most maleable grid framework you’ve ever used while still maintaining the familiarity and ease-of-use of the grid you’ve always used.
+  ie_support: 9
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: true
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Unsemantic
+  site_url: http://unsemantic.com/
+  github_url: http://github.com/nathansmith/unsemantic
+  contact_twitter:
+  contact_email:
+  licence: MIT/GPL
+  tagline:
+  short_desc: |
+    Unsemantic is a fluid grid system that is the successor to the 960 Grid System. It works in a similar way, but instead of being a set number of columns, it's entirely based on percentages.
+  ie_support: 7
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: true
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+- name: Seelva
+  site_url:
+  github_url: http://github.com/seelva/seelva
+  contact_twitter:
+  contact_email:
+  licence: Apache 2.0
+  tagline:
+  short_desc: |
+    Seelva is a CSS and HTML Framework built with SASS and Compass. It features a fixed 960px 24 columns grid that can be modified through SASS.
+  ie_support: 7
+  chrome_support: 13
+  safari_support: +
+  firefox_support: 3.6
+  opera_support: +
+  less_support: false
+  sass_support: true
+  mobile_support: false
+  tablet_support: false
+  desktop_support: true
+  active: true
+
+
+- name: Tuktuk
+  site_url: http://tuktuk.tapquo.com/
+  github_url: https://github.com/soyjavi/tuktuk
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline: Simple (but powerful) RWD Framework.
+  short_desc: |
+    Not trying to compete with Bootstrap or Foundation because they play in another league. Just worry about creating responsive and fully extensible sites easily.
+  ie_support: 7
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Maple
+  site_url:
+  github_url: http://github.com/t32k/maple
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline: Realistic Sass-based CSS framework for mobile.
+  short_desc: |
+    Mape is built with Sass, which allows us to writing better CSS and high performance CSS.
+  ie_support: 8
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: true
+  mobile_support: true
+  tablet_support: true
+  desktop_support: false
+  active: true
+
+
+- name: Fluidable
+  site_url: http://fluidable.com/
+  github_url: https://github.com/andri/fluidable
+  contact_twitter:
+  contact_email:
+  licence: CCO
+  tagline: Mobile first, responsive grid system
+  short_desc: |
+    Fluidable is a mobile first, responsive grid system that has fixed gutters and supports variable columns. It is standalone, lightweight &amp; built using LESS.
+  ie_support: 8
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: true
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Ink
+  site_url: http://ink.sapo.pt
+  github_url: https://github.com/sapo/ink/
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline: Ink is a set of tools for quick development of web interfaces.
+  short_desc: |
+    It offers a fluid and responsive grid, common interface elements, interactive components, a design-first approach with ease of use and simplicity at its core. Start integrating Ink in your projects and remove the hassle of building the basics, staying free to focus on what's important.
+  ie_support: 7
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: true
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Cascade Framework
+  site_url: http://cascade-framework.com/
+  github_url: https://github.com/jslegers/cascadeframework
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline: Putting back the C in CSS
+  short_desc: |
+    Powerful OOCSS front-end framework optimised for performance and flexibility.
+  ie_support: 6
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Cascade Framework Light
+  site_url:
+  github_url: https://github.com/jslegers/cascadeframeworklight
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline: An even more lightweight version of Cascade Framework, containing just the bare essentials.
+  short_desc: |
+  ie_support: 6
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Metro UI CSS 2.0
+  site_url: http://metroui.org.ua/
+  github_url: https://github.com/olton/Metro-UI-CSS/
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline:
+  short_desc: |
+    Metro UI CSS a set of styles to create a site with an interface similar to Windows 8. This set of styles was developed as a self-contained solution.
+  ie_support: +
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: true
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Jeet
+  site_url: http://jeetframework.com/
+  github_url: https://github.com/mojotech/jeet
+  contact_twitter:
+  contact_email:
+  licence: GPL
+  tagline: A light, semantic, responsive, CSS framework built from the best parts.
+  short_desc: |
+    A responsive grid system on Stylus.
+  ie_support: +
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Responsive Boilerplate
+  site_url: http://responsiveboilerplate.com/
+  github_url: https://github.com/newaeonweb/responsiveboilerplate
+  contact_twitter:
+  contact_email:
+  licence: MIT
+  tagline: A lightweight (3kb) cross browser grid system.
+  short_desc: |
+    Elegant and minimalist, made with only three main classes and 12 columns. Build with mobile first in mind, fits any screen size, pre-packed with some extra css helpers for mobile devices..
+  ie_support: +
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: true
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Susy
+  site_url: http://susy.oddbird.net/
+  github_url: https://github.com/ericam/susy
+  contact_twitter:
+  contact_email:
+  licence: Open Source
+  tagline: Responsive grids for Compass.
+  short_desc: |
+    The web is a responsive place, from your lithe & lively development process to your end-user's super-tablet-multi-magic-lap-phone. You need grids that are powerful yet custom, reliable yet responsive.
+  ie_support: 6
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: true
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Inuit.css
+  site_url: http://inuitcss.com/
+  github_url: https://github.com/csswizardry/inuit.css/
+  contact_twitter:
+  contact_email:
+  licence: Apache v2.0
+  tagline: A powerful, scalable, Sass-based, BEM, OOCSS framework.
+  short_desc: |
+    Inuit is a Sass based, Object Oriented framework that is full of objects and abstractions. inuit.css provides little-to-no design which means no undoing things, no deleting CSS and no adhering to other peoples’ design decisions.
+  ie_support: 8
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: true
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
+- name: Topcoat
+  site_url: http://topcoat.io/
+  github_url: https://github.com/topcoat/topcoat
+  contact_twitter:
+  contact_email:
+  licence: Apache v2.0
+  tagline: CSS framework for clean and fast web apps.
+  short_desc: |
+    Fast! BEM oriented, themeable and responsive framework.
+  ie_support: 9
+  chrome_support: +
+  safari_support: +
+  firefox_support: +
+  opera_support: +
+  less_support: false
+  sass_support: false
+  mobile_support: true
+  tablet_support: true
+  desktop_support: true
+  active: true
+
+
