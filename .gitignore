@@ -45,3 +45,7 @@ _site/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+
+assets/dist/
+statix/dist/
