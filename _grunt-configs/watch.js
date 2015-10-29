@@ -19,6 +19,17 @@ module.exports.tasks = {
 			}
 		},
 
+		js: {
+			files: ['<%=config.js.distDir%>/**/*.js'],
+			tasks: [
+				'copy:js'
+			],
+			options: {
+				interrupt: true,
+				spawn: false
+			}
+		},
+
 		images : {
 			files: ['<%=config.img.srcDir%>/**/*.{svg,png,jpg,gif}'],
 			tasks: ['imagemin:images'],
